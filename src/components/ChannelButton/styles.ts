@@ -35,6 +35,16 @@ export const Container = styled.div`
       color: var(--white);
     }
   }
+
+  > div svg {
+    display: none;
+  }
+
+  &:hover {
+    > div svg {
+      display: inline;
+    }
+  }
 `;
 
 export const HashtagIcon = styled(Hashtag)`
